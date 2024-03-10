@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:orange ;
+    font-family: "Madimi One", sans-serif;
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+   list-style-type: none;
+}
+
+.nav li{
+    display: inline;
+}
+
+.logo{
+    color: #000;
+    margin: 0;
+    padding: 0px;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: #fff;
+    transition: all 1.5s;
+    padding: 16px;
+}
+.nav li a:hover{
+        color: red;
+    
+}
+
+
